@@ -1,26 +1,29 @@
-Power BI Dashoard:
-
 Introduction:
-This project is realted to Healthcare Claims comprizing of Medical, Phramacetical and Enrollement data collected for California's statewide Healthcare Payments Program.
-- The Medical data file contains counts of medical procedures from medical claims and encounter data in HPD.
-- The Pharmacy data file contains counts of drug prescriptions from pharmacy claims and encounter data in HPD.
-- The Enrollment data file contains counts of claims and encounter data collected for California's statewide HPD.
 
+This project delves into Healthcare Claims analysis encompassing Medical, Pharmaceutical, and Enrollment data gathered for California's statewide Healthcare Payments Program.
+  -The Medical data file comprises counts of medical procedures from medical claims and encounter data in HPD.
+  -The Pharmacy data file contains counts of drug prescriptions from pharmacy claims and encounter data in HPD.
+  -The Enrollment data file encompasses counts of claims and encounter data collected for California's statewide HPD.
 
-Goal: To identify the variations in trends of Healthcare claims data across different sectors from 2018-2021
+Goal: The objective is to discern trends and variations in Healthcare claims data across different sectors spanning from 2018 to 2021.
 
-Analysis Process
-  Data Cleaning:
-     -I prepared my data for analysis by uploading CSV files into Python.
-     -I have checked for the duplicate values, replaced missing/null values, and renamed few variables
-     -Looked in for multiple entries, semicolons, outliers.
-     -Checked for data entry errors like additional white spaces, standardized string values.  
+Tools Used: Python, Excel, and Power BI were employed for this analysis.
 
-  Data Visualization:
+Analysis Process:
+  Data Cleaning & Visualization:
+    -Uploaded CSV files into Python for initial data preparation.
+    -Detected and handled duplicate values, replaced missing/null values, and standardized variable names.
+    -Conducted thorough examination for multiple entries, semicolons, and outliers.
+    -Ensured data integrity by rectifying data entry errors such as extra white spaces and standardizing string values.
+    -Exported the cleaned dataset and imported it into Power BI for dashboard creation.
 
+Results:
+  -In the Medical data, Medicare payer type dominated over Medicaid & Commercial categories until 2020, but experienced a drastic decline in 2021.
+  -Across all years, the "All" category appears to dominate claims types, followed by Pharma and Medical claims.
+  -Based on enrollment records, the "All" category dominates in Claims type, Payer type, and Product type.
+  -Notably, generic drug prescriptions significantly surpass branded drugs.
 
-Final Conclusion:
-  - In Medical data, Medicare payer type dominates over Medicaid & Commercial category until 2020, but falls drastically in 2021
-  - claims type, All category seems to be domiating all these years followed by Pharma and Medical claims.
-  - Based on enrollment records, All category dominates in Claims type, Payer type and Product type
-  - Generic drug prespitions dominting signifiactly over branded drugs.
+Conclusion:
+  This analysis provides valuable insights into the dynamics of Healthcare claims data, particularly in California's healthcare landscape.
+  By leveraging Python for initial data processing and Power BI for visualization, a comprehensive understanding of trends and patterns was achieved.
+  These findings hold significance for stakeholders involved in healthcare policy-making and program management.
